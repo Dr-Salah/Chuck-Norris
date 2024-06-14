@@ -1,0 +1,42 @@
+*{
+    color: white;
+    text-align: center;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    background-image: url(./images/1.5612cd2173dfc050890a87a4892273e9.jpg);
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 50%
+}
+
+button {
+    width: 25%;
+
+}
+
+h1, h2, button {
+    margin: auto;
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: smaller;
+    }
+    h2 {
+        font-size: smaller;
+    }
+}
