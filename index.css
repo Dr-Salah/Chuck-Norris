@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+
+
 *{
     color: white;
     text-align: center;
+    font-family: "Yatra One";
 }
 
 html {
@@ -20,23 +25,43 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     width: 50%;
-    height: 50%
+    height: 50%;
+    border-radius: 20px;
+    padding: 5%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+hr {
+    color: white;
 }
 
 button {
     width: 25%;
+    background-color: orange;
+    border-radius: 25px;
+}
 
+button img {
+    margin-top: 5%;
+}
+
+button:hover {
+    background-color: orangered;
 }
 
 h1, h2, button {
     margin: auto;
 }
 
-@media only screen and (max-width: 500px) {
-    h1 {
-        font-size: smaller;
-    }
-    h2 {
-        font-size: smaller;
-    }
+@media only screen and (max-width: 900px) {
+   body {
+    width: 85%;
+   }
 }
